@@ -46,11 +46,11 @@ public Curso() {
 this.alumnos=new ArrayList<>();
 this.examenes=new ArrayList<>();
 }
-public List<Examen> getExamanes() {
+public List<Examen> getExamenes() {
 	return examenes;
 }
-public void setExamanes(List<Examen> examanes) {
-	this.examenes = examanes;
+public void setExamenes(List<Examen> examenes) {
+	this.examenes = examenes;
 }
 public void addExamen(Examen examen) {
 	this.examenes.add(examen);
